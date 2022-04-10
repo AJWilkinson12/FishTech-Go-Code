@@ -38,3 +38,16 @@ func getIpInfo(ip string) ipInfoStruct {
 	}
 	return ipInfoStruct
 }
+
+
+func Valid(ip string) bool {
+
+	ipObj := net.ParseIP(ip)
+
+	if ipObj == nil {
+		return false
+	} else {
+		return true
+	}
+
+}
