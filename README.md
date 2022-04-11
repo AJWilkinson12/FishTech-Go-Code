@@ -3,7 +3,7 @@ Coding challenge for FishTech interview. Using Golang, I created a simple API th
 This API is a IP Information collector. Using it will give you various information about a given IP. Just insert it at the end of the link given below.
 I've included the already zipped file for convenience if someone who like to Terraform Apply using that zip file and creating another link.
 
-## Notes for reviewers.
+## Note for reviewers.
 I had initial problems getting Terraform to get the function uploaded and a couple times it told me there was an interal server error. But after doing research
 and watching multiple videos on deployment using Terraform I was able to come to a solution. Terraform is an incredible tool and I had fun learning about it
 and using it to deploy this serverless funtion. I am excited to have more reasons to keep working with it! The following link will take you to the API
